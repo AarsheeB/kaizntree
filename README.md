@@ -23,7 +23,10 @@
 4. Access the django admin using the following url-
    [Link Text](http://127.0.0.1:8000/admin/)
 
-
+# Run the login page in React
+1. Download frontend.zip
+2. Go to src
+3. Run npm start
 
 
 # Outputs of the code
