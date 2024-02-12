@@ -46,14 +46,7 @@ class ItemRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
    
        
 
-        # Store the data in the cache for future requests
-        cache.set(cache_key, queryset)
-
-        return queryset
-
-
-
-
+     
 
 
 
