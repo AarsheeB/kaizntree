@@ -26,6 +26,13 @@
 
 
 
+# Outputs of the code
+## API endpoints tested on postman
+
+
+
+
+
 
  
 
