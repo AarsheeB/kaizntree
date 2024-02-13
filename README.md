@@ -28,6 +28,10 @@
 2. Go to src
 3. Run npm start
 
+# Using PostgreSQL reasons-
+1. The scalability and the feature set of the database it is really useful for projects that can be extended into bigger projects
+2. The data integrity of the database helps with the consistency and reliability of the data
+3. It is open source and community friendly
 
 # Outputs of the code
 ## API endpoints tested on postman
