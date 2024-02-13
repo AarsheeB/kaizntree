@@ -29,12 +29,12 @@
 3. Run npm start
 
 # For the backend-
-1. download the ItemDashboard.zip
+1. Download the ItemDashboard.zip
 2. Use the following commands
 3. `python manage.py makemigrations`
 4. `python manage.py migrate`
 5.  `python manage.py runserver`
-6.  Use the API endpoints given below-
+6.  Use the API endpoints given below in postman-
    - Endpoint: GET /api/items/
       - Description: Retrieve a list of all items with details such as SKU, name, category, tags, stock status, and available stock.
 
