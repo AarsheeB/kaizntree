@@ -48,6 +48,9 @@
 ### Login page using React
 ![FE5A81D6-7545-4799-83D3-E019B9CE3222](https://github.com/AarsheeB/kaizntree/assets/48876044/d67bc00e-5ee1-49c8-8fcd-72f2fcbade31)
 
+### API endpoints
+ http://127.0.0.1:8000/
+
 
 
 
