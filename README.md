@@ -23,10 +23,56 @@
 4. Access the django admin using the following url-
    [Link Text](http://127.0.0.1:8000/admin/)
 
-# Run the login page in React
+# Run the login page in React-
 1. Download frontend.zip
 2. Go to src
 3. Run npm start
+
+# For the backend-
+1. download the ItemDashboard.zip
+2. Use the following commands
+3. `python manage.py makemigrations`
+4. `python manage.py migrate`
+5.  `python manage.py runserver`
+6.  Use the API endpoints given below-
+   - Endpoint: GET /api/items/
+      - Description: Retrieve a list of all items with details such as SKU, name, category, tags, stock status, and available stock.
+
+   - Retrieve Single Item:
+      - Endpoint: GET /api/items/{item_id}/
+      - Description: Retrieve details for a specific item identified by its item_id.
+
+   - Create New Item:
+      - Endpoint: POST /api/items/
+      - Description: Create a new item by providing necessary details in the request body.
+
+   - Update Item:
+      - Endpoint: PUT /api/items/{item_id}/
+      - Description: Update details of a specific item identified by its item_id.
+
+   - Delete Item:
+      - Endpoint: DELETE /api/items/{item_id}/
+      - Description: Delete a specific item identified by its item_id.
+
+   - Filter Items by Category:
+      - Endpoint: GET /api/items/?category={category_id}
+      - Description: Retrieve a list of items filtered by a specific category identified by category_id.
+
+   - Filter Items by Stock Status:
+      - Endpoint: GET /api/items/?stock_status={status}
+      - Description: Retrieve a list of items filtered by stock status (e.g., in stock, out of stock).
+
+   - Filter Items by Date Range:
+      - Endpoint: GET /api/items/?start_date={start_date}&end_date={end_date}
+      - Description: Retrieve items created within a specified date range.
+
+   - List Categories:
+      - Endpoint: GET /api/categories/
+      - Description: Retrieve a list of all available categories.
+    
+   - List Tags:
+      - Endpoint: GET /api/tags/
+      - Description: Retrieve a list of all available tags.
 
 # Using PostgreSQL reasons-
 1. The scalability and the feature set of the database it is really useful for projects that can be extended into bigger projects
